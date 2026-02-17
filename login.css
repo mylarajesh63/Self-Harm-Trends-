@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Background */
+.bg {
+    height: 100vh;
+    background-color: #9db6e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login box */
+.login-container {
+    background: white;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+/* Title */
+.login-container h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #222;
+}
+
+.icon {
+    color: #3f51ff;
+    margin-right: 5px;
+}
+
+.blue {
+    color: #3f51ff;
+}
+
+/* Inputs */
+.login-container input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #eee;
+    font-size: 14px;
+}
+
+/* Button */
+.login-container button {
+    width: 130px;
+    padding: 12px;
+    background-color: #008bbf;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Register text */
+.register {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.register a {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
